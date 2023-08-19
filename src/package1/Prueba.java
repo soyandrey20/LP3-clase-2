@@ -1,11 +1,8 @@
-package package1;
+package src.package1;
 
-/**
- * Prueba
- */
 public class Prueba {
 
-    public void test() {
-        System.out.println("cualquier string");
+    public void test(){
+        System.out.printf("Cualquier string");
     }
 }
