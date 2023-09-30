@@ -1,7 +1,11 @@
 package collection;
 
+import com.sun.jdi.Value;
+
+import java.security.Key;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Vector;
 
 public class EjemploMap {
     public static void main(String[] args) {
@@ -16,5 +20,6 @@ public class EjemploMap {
 
         System.out.println(val);
 
+        map.forEach((Key, Value) -> System.out.println("key : " + Key + " -> " + Value + " \uD83D\uDC9b "));
     }
 }
